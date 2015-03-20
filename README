@@ -1,0 +1,24 @@
+# TiMenuTemplateApp
+
+This is a starting point for new apps that need a navigation drawer.
+
+## Getting Started
+
+Install the global dependencies & highly useful tools:
+
+```
+brew install imagemagick
+npm i -g tishadow ticalabash gittio ticons
+```
+
+Install the local dependencies:
+
+```
+cd path-to-this-project
+npm install
+```
+
+Enter the password you normally enter for `sudo` when requested.
+Use sudo before npm install if you get an `Error: EACCES` message.
+
+Don't forget to generate a new GUID for your tiapp.xml file!

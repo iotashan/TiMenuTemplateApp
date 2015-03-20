@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="self" module="xp.ui">
+		<ScrollView id="scroller" class="navScrollView">
+			<View id="content" />
+			<View id="versions">
+				<Label id="appVersion" class="version" />
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

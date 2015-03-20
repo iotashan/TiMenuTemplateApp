@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="win" module="xp.ui">
+		<LeftNavButton platform="ios" id="menuButton" class="menuButton" />
+		
+		<Label id="mainText" />
+		
+		<Button id="nextWindow" />
+		
+	</Window>
+</Alloy>

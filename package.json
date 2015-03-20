@@ -1,0 +1,13 @@
+{
+	"name": "TiMenuTemplateApp",
+	"description": "A starting point for apps that use a navigation drawer",
+	"author": "Shannon Hicks <shannon@appersonlabs.com>",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/appersonlabs/TiMenuTemplateApp.git"
+	},
+	"dependencies": {
+		"ti-mocha": ">= 0.2.0"
+	},
+	"engine": "node 0.4.1"
+}

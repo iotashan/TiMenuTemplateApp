@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="win" module="xp.ui">
+		<View id="content">
+			<Label id="instructions" />
+			
+			<Button id="login" class="mainButton" />
+		</View>
+		
+		<Label id="version" />
+	</Window>
+</Alloy>

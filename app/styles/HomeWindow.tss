@@ -1,0 +1,13 @@
+"#win": {
+	title:'Home',
+}
+
+"#mainText":{
+	top:50,
+	text:'Welcome Home!',
+}
+
+"#nextWindow": {
+	width:150,
+	title:'Open Child',
+}

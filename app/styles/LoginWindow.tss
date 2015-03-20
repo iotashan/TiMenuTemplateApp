@@ -1,0 +1,43 @@
+"#win": {
+	navBarHidden:true,
+}
+
+"win[platform=ios]": {
+	statusBarStyle:Ti.UI.iPhone.StatusBar.DEFAULT,
+}
+
+"#content": {
+	height:Ti.UI.SIZE,
+	width:274,
+	layout:'vertical',
+}
+
+"#instructions": {
+	text:'Click the button to log in:',
+	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+	bottom:70,
+}
+
+".mainButton": {
+	left:0,
+	right:0,
+	height:50,
+	backgroundColor:'#54c0d1',
+	color:'#fff',
+	font:{
+		fontSize:20,
+	}
+}
+
+"#login": {
+	title:'Log In',
+}
+
+"#version": {
+	bottom:10,
+	right:10,
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:'#c6c6c6',
+	textAlign:Ti.UI.TEXT_ALIGNMENT_RIGHT,
+}
