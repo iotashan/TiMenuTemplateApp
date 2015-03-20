@@ -3,7 +3,7 @@ describe('HomeWindow.js', function() {
 	var $;
 
 
-	beforeEach(function() {
+	before(function() {
 		$ = Alloy.createController("HomeWindow");
 	});
 

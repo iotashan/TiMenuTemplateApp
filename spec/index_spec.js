@@ -3,7 +3,7 @@ describe('index.js', function() {
 	var $;
 
 
-	beforeEach(function() {
+	before(function() {
 		$ = Alloy.createController("index");
 	});
 
