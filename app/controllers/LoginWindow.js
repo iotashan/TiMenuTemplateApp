@@ -32,10 +32,10 @@ exports.init = init;
 $.version.text = 'v'+Ti.App.version; // + ' (' + Ti.buildHash + ')';
 
 $.login.addEventListener('click',function(){
-	goHome();
+	exports.goHome();
 });
 
-var goHome = function() {
+exports.goHome = function() {
 	Alloy.Globals.currentUser = {userID:1234};
 	Ti.App.Properties.setString('session',JSON.stringify(Alloy.Globals.currentUser));
 	
